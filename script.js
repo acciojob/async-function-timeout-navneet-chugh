@@ -8,7 +8,7 @@ button.addEventListener("click", () => {
   const delay = Number(delayInput.value);
 
   if (message && delay > 0) {
-    call(message, delay);
+    call(message, delay)
   }
 });
 
