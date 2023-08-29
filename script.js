@@ -4,7 +4,7 @@ const delayInput = document.getElementById("delay");
 const output = document.getElementById("output");
 
 button.addEventListener("click", () => {
-  const message = messageInput.ariaValueMax;
+  const message = messageInput.value;
   const delay = Number(delayInput.value);
 
   if (message && delay > 0) {
